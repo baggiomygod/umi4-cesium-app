@@ -6,13 +6,17 @@ const initThree = () => {
   //场景
   let scene = new THREE.Scene();
 
-  // 相机
+  // 相机：
+  // fov:眼球张开的角度，0°时相当于闭眼。
+  // aspect:可视区域横纵比。
+  // near:眼睛能看到的最近垂直距离。
+  // far：眼睛能看到的最远垂直距离
   let camera = new THREE.PerspectiveCamera(75, 2, 0.5, 1000);
   camera.position.z = 5;
 
   // 渲染器
   let renderer = new THREE.WebGLRenderer();
-  renderer.setSize(960, 530);
+  renderer.setSize(1000, 800);
   let dom: any = document.getElementById('three-demo1-scene');
   dom.appendChild(renderer.domElement);
 
