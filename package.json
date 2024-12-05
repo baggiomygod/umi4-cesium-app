@@ -15,11 +15,13 @@
     "@ant-design/pro-components": "^2.6.49",
     "@umijs/max": "^4.1.1",
     "antd": "^5.13.3",
-    "cesium": "^1.114.0"
+    "cesium": "^1.114.0",
+    "three": "^0.171.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.51",
     "@types/react-dom": "^18.2.18",
+    "@types/three": "^0.170.0",
     "husky": "^9.0.10",
     "lint-staged": "^15.2.1",
     "prettier": "^3.2.4",

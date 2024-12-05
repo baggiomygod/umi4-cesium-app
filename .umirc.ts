@@ -56,6 +56,11 @@ export default defineConfig({
       path: 'threeJs',
       routes: [
         {
+          name: 'demo1-scene-cube',
+          path: '/threeJs/demo1-scene-cube',
+          component: './ThreeJs/demo1-scene-cube',
+        },
+        {
           name: 'demo3-ball',
           path: '/threeJs/demo3-ball',
           component: './ThreeJs/demo3-ball',
