@@ -42,12 +42,23 @@ export default defineConfig({
     },
     {
       name: 'Interview',
-      patj: 'interview',
+      path: 'interview',
       routes: [
         {
           name: ' custom promise',
           path: '/interview/promise',
           component: './Interview/promise',
+        },
+      ],
+    },
+    {
+      name: 'ThreeJs',
+      path: 'threeJs',
+      routes: [
+        {
+          name: 'demo3-ball',
+          path: '/threeJs/demo3-ball',
+          component: './ThreeJs/demo3-ball',
         },
       ],
     },
