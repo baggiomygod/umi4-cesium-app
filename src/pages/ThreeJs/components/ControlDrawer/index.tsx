@@ -17,7 +17,7 @@ const ConrolFrawer = (
     setOpen,
   }));
   return (
-    <Drawer open={open}>
+    <Drawer open={open} placement="left">
       <CameraControl ref={drawerRef} />
     </Drawer>
   );

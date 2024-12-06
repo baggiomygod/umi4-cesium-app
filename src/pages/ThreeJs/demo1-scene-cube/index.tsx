@@ -49,7 +49,7 @@ export default function Page() {
   const [carmeraParam, setCarmeraParam] = useState({
     fov: 75,
     aspect: 2,
-    near: 0.5,
+    near: 0.1,
     far: 1000,
   });
 
